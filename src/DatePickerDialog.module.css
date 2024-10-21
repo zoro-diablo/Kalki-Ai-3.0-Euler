@@ -1,0 +1,30 @@
+/* DatePickerDialog.module.css */
+.datePickerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    /* padding: 10px; */
+    /* background-color: #f0f0f0; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .customDatePicker {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .customDatePicker:hover {
+    border-color: #007bff;
+  }
+  
+  .customDatePicker:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
